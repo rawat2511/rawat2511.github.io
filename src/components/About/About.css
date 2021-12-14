@@ -1,0 +1,53 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+  text-align: center;
+  align-items: center;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+.photo {
+  width: 360px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin: 2em;
+  }
+  .photo {
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .social-about {
+    align-items: center;
+  }
+}
