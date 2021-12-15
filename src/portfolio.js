@@ -28,8 +28,8 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'ES6'],
     sourceCode: 'https://github.com/anishtiwari09/bookMyShow_Tribe_Project',
     livePreview: 'https://rawat2511.github.io/BookMyShow/HTML/Home.html',
-    image1: "https://i.imgur.com/8QyU2dV.png",
-    image2: "https://i.imgur.com/lFSCiLI.png"
+    image1: "https://rawat2511.github.io/images/BookMyShow_1.png",
+    image2: "https://rawat2511.github.io/images/BookMyShow_3.png"
   },
   {
     name: 'Fiverr Clone',
@@ -38,8 +38,8 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'ES6'],
     sourceCode: 'https://github.com/rawat2511/Fiverr_Presentation',
     livePreview: 'https://construct-week-1-fiverr.netlify.app/',
-    image1: "https://i.imgur.com/VLdG7NZ.png",
-    image2: "https://i.imgur.com/5PTJci9.png"
+    image1: "https://rawat2511.github.io/images/Fiverr_1.png",
+    image2: "https://rawat2511.github.io/images/Fiverr_2.png"
   }
 ]
 

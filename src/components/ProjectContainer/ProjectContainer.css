@@ -39,7 +39,7 @@
 
 .project_image {
   width: 480px;
-  height: 320px;
+  height: 280px;
   margin: 14px;
   border-radius: 10px;
   border: 2px solid coral;
@@ -52,6 +52,6 @@
   }
   .project_image {
     width: 90%;
-    height: 230px;
+    height: 180px;
   }
 }
