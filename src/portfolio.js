@@ -8,9 +8,8 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shubham Rawat',
-  role: 'Front End Web Developer',
-  description:
-    'Aspiring Front End Wed Developer with good knowledge of React Js. Want to start my career as a software developer in a high growth startup and make good-looking User Interfaces. I want to keep myself updated with the latest technological advances. Apart from this, I like to know about startup ecosystem and about Personal Finance. I even like to play play basketball whenever I get a chance and I have been the part of my schools basketball team.',
+  role: 'MERN Stack Developer',
+  description: "Aspiring Web Developer with good knowledge of React, Redux, Node, and MongoDB. Want to start my career as a software developer in a high-growth startup and make great products. I want to keep myself updated with the latest technological advances. Apart from this, I like to know about the startup ecosystem and about Personal Finance. I even like to play basketball whenever I get a chance and I have been a part of my school's basketball team.",
   resume: './Shubham.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/shubham2511',
@@ -22,9 +21,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Myntra Clone',
+    description: 'Myntra is an online Shopping Site for Fashion & Lifestyle in India. I, along with my 3 teammates built this clone within one week. Here, we have have implemented sorting and filtering of products accoring to rating and price. The functionality of adding the products to cart and wishilist is implemented using Redux.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'ES6', 'React', 'Redux'],
+    sourceCode: 'https://github.com/shreevalikushe/myntra_clone',
+    livePreview: 'https://myntra-clone-gilt.vercel.app/',
+    image1: "https://raw.githubusercontent.com/rawat2511/images/master/myntraHome.png",
+    image2: "https://github.com/rawat2511/images/blob/master/myntraWishlist.png?raw=true"
+  },
+  {
     name: 'Book My Show Clone',
-    description:
-      'I along with my 2 other teammates made this website within 8 days. Here, one can select the seats to book the tickets. One can see the trailers of the latest movies which are fetched from the YouTube using the YouTube API. We can also sort and filter different movies.',
+    description: "I along with my 2 other teammates made this website within 8 days. Here, one can select the seats to book the tickets. One can see the trailers of the latest movies which are fetched from YouTube using the YouTube API and we can filter the movies based on different genres, languages, and formats.",
     stack: ['HTML', 'CSS', 'JavaScript', 'ES6'],
     sourceCode: 'https://github.com/anishtiwari09/bookMyShow_Tribe_Project',
     livePreview: 'https://rawat2511.github.io/BookMyShow/HTML/Home.html',
@@ -33,14 +40,14 @@ const projects = [
   },
   {
     name: 'Fiverr Clone',
-    description:
-      'It is the first project that I have built to implement the CSS I have learnt. I have embedded the YouTube video in it and worked on the header and footer section. While building this project, I got some confidence about my css skills and it was my first step towards building a project.',
+    description: "It is the first team project that we have built-in Masai School to implement the CSS we have learned. We have embedded the YouTube video in it and worked on the header and footer section. While building this project, we got some confidence in our CSS skills and it was our first step towards building a project.",
     stack: ['HTML', 'CSS', 'JavaScript', 'ES6'],
     sourceCode: 'https://github.com/rawat2511/Fiverr_Presentation',
     livePreview: 'https://construct-week-1-fiverr.netlify.app/',
     image1: "https://rawat2511.github.io/images/Fiverr_1.png",
     image2: "https://rawat2511.github.io/images/Fiverr_2.png"
   }
+  
 ]
 
 const skills = [
@@ -65,10 +72,21 @@ const skills = [
     src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDn-_kLAcnntK415Ct2XJd9Uz6A74Qs6LkvcoS6GNWzG-0zsBTBS1EUTYdJXXJn-JnqQ&usqp=CAU'
   },
   {
-    name: 'Git',
-    src: 'https://cdn.icon-icons.com/icons2/2108/PNG/512/git_icon_130933.png'
+    name: 'Express',
+    src: 'https://ih1.redbubble.net/image.438908244.6144/st,small,507x507-pad,600x600,f8f8f8.u2.jpg'
   },
-  
+  {
+    name: 'Node',
+    src: 'https://ih1.redbubble.net/image.1637717834.1604/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg'
+  },
+  {
+    name: 'MongoDB',
+    src: 'https://www.pngitem.com/pimgs/m/385-3850320_png-transparent-mongodb-icon-mongodb-logo-png-download.png'
+  }
+  // {
+  //   name: 'Git',
+  //   src: 'https://ih1.redbubble.net/image.818221338.4944/st,small,507x507-pad,600x600,f8f8f8.u2.jpg'
+  // }
   
   // 'Git'
 ]
