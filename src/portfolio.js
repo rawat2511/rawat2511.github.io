@@ -34,7 +34,7 @@ const projects = [
     description: "I along with my 2 other teammates made this website within 8 days. Here, one can select the seats to book the tickets. One can see the trailers of the latest movies which are fetched from YouTube using the YouTube API and we can filter the movies based on different genres, languages, and formats.",
     stack: ['HTML', 'CSS', 'JavaScript', 'ES6'],
     sourceCode: 'https://github.com/anishtiwari09/bookMyShow_Tribe_Project',
-    livePreview: 'https://rawat2511.github.io/BookMyShow/HTML/Home.html',
+    livePreview: 'https://anishtiwari09.github.io/bookmyshowclones/HTML/Home.html',
     image1: "https://rawat2511.github.io/images/BookMyShow_1.png",
     image2: "https://rawat2511.github.io/images/BookMyShow_3.png"
   },
