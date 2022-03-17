@@ -57,7 +57,7 @@ const Contact = () => {
                     
                 </div>
 
-                <div className="column right">
+                <div className="column right column-right">
                     <div className="text">Message me</div>
                     <form action="#">
                         <div className="fields">

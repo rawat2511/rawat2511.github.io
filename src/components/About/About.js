@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div className='about center'>
-      <img className="photo" src="https://i.imgur.com/NVIkgHj.png" alt="shubham" />
+      <img className="photo" src="https://avatars.githubusercontent.com/u/88944511?v=4" alt="shubham" />
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>

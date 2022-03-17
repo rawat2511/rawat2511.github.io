@@ -9,7 +9,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shubham Rawat',
   role: 'MERN Stack Developer',
-  description: "Aspiring Web Developer with good knowledge of React, Redux, Node, and MongoDB. Want to start my career as a software developer in a high-growth startup and make great products. I want to keep myself updated with the latest technological advances. Apart from this, I like to know about the startup ecosystem and about Personal Finance. I even like to play basketball whenever I get a chance and I have been a part of my school's basketball team.",
+  description: "Aspiring Web Developer with good knowledge of React, Redux, Node, and MongoDB. Want to start my career as a software developer in a high-growth startup and make great products. I want to keep myself updated with the latest technological advances. Apart from this, I like to know about the startup ecosystem and about Personal Finance. I like to play basketball and I have been a part of my school's basketball team.",
   resume: './Shubham.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/shubham2511',
@@ -61,11 +61,11 @@ const skills = [
   },
   {
     name: 'JavaScript',
-    src: 'https://spng.subpng.com/20180720/bv/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b13c2314.0304322315320700652463.jpg'
+    src: 'https://p.kindpng.com/picc/s/171-1718046_javascript-programming-language-logo-hd-png-download.png'
   },
   {
     name: 'React Js',
-    src: 'https://spng.pngfind.com/pngs/s/122-1222517_react-hexagon-react-png-transparent-png.png'
+    src: 'https://www.nicepng.com/png/detail/31-315310_react-hexagon-react-js-transparent-background.png'
   },
   {
     name: 'Redux',

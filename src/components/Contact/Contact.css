@@ -1,3 +1,10 @@
+#contact {
+  margin-top: 3em;
+}
+
+.contact {
+  margin-top: 5em;
+}
 
 form .fields{
   display: flex;
@@ -12,6 +19,9 @@ form .textarea{
   height: 80px;
   width: 100%;
 }
+
+
+
 form .name{
   margin-right: 10px;
 }
@@ -69,13 +79,15 @@ background: none;
 }
 
 
-.right, .left {
-  width: 50%;
+.left {
+  width: 70%;
 }
 .row {
   display: flex;
   margin: 0px 0px 20px 0px;
 }
+
+
 
 @media only screen and (max-width: 700px){
 	.contact {
